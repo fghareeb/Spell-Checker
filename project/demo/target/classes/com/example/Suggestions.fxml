@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="406.0" style="-fx-background-color: lightBlue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SuggestionsController">
+   <children>
+      <ComboBox fx:id="cboSuggestion" layoutX="205.0" layoutY="91.0" prefWidth="150.0" />
+      <TextField fx:id="txtManual" layoutX="40.0" layoutY="91.0" />
+      <Button fx:id="btnIgnoreOnce" layoutX="40.0" layoutY="187.0" mnemonicParsing="false" onAction="#ignoreOnce" prefHeight="25.0" prefWidth="97.0" text="Ignore Once" />
+      <Button fx:id="btnManual" layoutX="40.0" layoutY="137.0" mnemonicParsing="false" onAction="#manual" prefHeight="25.0" prefWidth="149.0" text="Fix Manually" />
+      <Button fx:id="btnSuggest" layoutX="205.0" layoutY="137.0" mnemonicParsing="false" onAction="#suggest" prefHeight="25.0" prefWidth="149.0" text="Use Suggestion" />
+      <Label fx:id="lblMistake" layoutX="42.0" layoutY="51.0" text="Mistake" />
+      <Button fx:id="btnIgnoreAll" layoutX="149.0" layoutY="186.0" mnemonicParsing="false" onAction="#ignoreAll" prefHeight="25.0" prefWidth="97.0" text="Ignore All" />
+      <Button fx:id="btnDelete" layoutX="256.0" layoutY="186.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="97.0" text="Delete" />
+      <Button fx:id="btnAdd" layoutX="41.0" layoutY="228.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="311.0" text="Add To User Dictionary" />
+   </children>
+</AnchorPane>
