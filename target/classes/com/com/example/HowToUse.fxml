@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text layoutX="12.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Upload Text file using upload button. The feel needs to be a text file written in English." textAlignment="CENTER" wrappingWidth="543.609375">
+         <font>
+            <Font size="14.0" />
+         </font>
+        </Text>
+      <Label layoutX="14.0" layoutY="24.0" prefHeight="29.0" prefWidth="83.0" text="Upload:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="105.0" prefHeight="29.0" prefWidth="75.0" text="Save:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="238.0" prefHeight="30.0" prefWidth="120.0" text="Dictionary:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="339.0" prefHeight="29.0" prefWidth="83.0" text="Metrics:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="19.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File can be saved by pressing the save button. The changes can be saved in the same file or a new file in a different location." wrappingWidth="562.109375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All unsaved changes will be lost" wrappingWidth="531.609375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preferred dictionary can be set through settings. " wrappingWidth="553.109375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Words can be added and deleted from the user dictionary by going to the settings under &quot;user dictionary settings&quot;." wrappingWidth="553.109375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data collected throughout the spell-check can be found in the metrics" wrappingWidth="553.109375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
